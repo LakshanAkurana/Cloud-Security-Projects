@@ -19,3 +19,27 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+#### **3. Structure Your Repository**
+
+Cloud-Security-Projects/
+│
+├── README.md  # Overview of all projects
+├── Secure-VPC-Project/  # Folder for each project
+│   ├── vpc-setup.md  # Detailed description of VPC setup steps
+│   ├── vpc-config.yaml  # VPC configuration file if using IaC
+│   └── diagrams/  # Include any diagrams (e.g., network architecture)
+│
+├── IAM-RBAC-Project/  
+│   ├── iam-roles.md  # Details on IAM roles and policies
+│   ├── iam-config.json  # Sample IAM configuration file
+│
+├── Encryption-Storage-Project/  
+│   ├── storage-encryption.md  # Encryption process for storage
+│   ├── s3-config.yaml  # Example configurations for S3 or Blob
+│
+└── Intrusion-Detection-Project/
+    ├── ids-setup.md  # Setup guide for IDS (GuardDuty or Azure Security)
+    └── response-automation.py  # Lambda function for automatic incident response
